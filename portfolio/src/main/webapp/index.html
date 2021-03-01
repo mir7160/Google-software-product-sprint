@@ -2,17 +2,34 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Mir Farid Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
+      <h1>Mir Farid Portfolio</h1>
+      <p>This is Mir Farid's portfolio.</p>
+      <img src ="/images/memoji2.png"/>
+      <p>Hello, my name is Mir and I am currently a second-year student studying computer science. Here you will find my portfolio.</p>
+    <!---  <p>Click <a href="/hello">here</a> to see content created by server code.</p>  -->
+      <p2>Links</p2>   
+      <br>  
+      <div class = "row">
+        <div class = "column">
+            <a href="https://github.com/mir7160">
+            <input type= "image" name = "github" src = "images/githublogo.png" >
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://www.linkedin.com/in/mirfarid/">
+            <input type= "image" name = "linkedin" src = "images/LIbutton.png">
+            </a>
+        </div>
+    </div>  
+
+      <p>Click here to get a random quotes:</p>
+      <button onclick="addRandomGreeting()">Quote</button>
       <div id="greeting-container"></div>
     </div>
   </body>

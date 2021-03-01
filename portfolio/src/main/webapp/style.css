@@ -4,6 +4,42 @@
   width: 650px;
 }
 
-#greeting-container {
+#quote-container {
   margin-top: 20px;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+*{
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #3590ae;
+}
+
+
+input{
+    height: 15%;
+    width: 15%;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 0px;
+}
+
+/* Clear floats after image containers */
+.row::before {
+  content: "";
+  clear: both;
+  display: table;
 }
