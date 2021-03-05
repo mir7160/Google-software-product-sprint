@@ -7,30 +7,192 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div id="content">
-      <h1>Mir Farid Portfolio</h1>
-      <p>This is Mir Farid's portfolio.</p>
-      <img src ="/images/memoji2.png"/>
-      <p>Hello, my name is Mir and I am currently a second-year student studying computer science. Here you will find my portfolio.</p>
-    <!---  <p>Click <a href="/hello">here</a> to see content created by server code.</p>  -->
-      <p2>Links</p2>   
-      <br>  
-      <div class = "row">
-        <div class = "column">
-            <a href="https://github.com/mir7160">
-            <input type= "image" name = "github" src = "images/githublogo.png" >
-            </a>
-        </div>
-        <div class="column">
-            <a href="https://www.linkedin.com/in/mirfarid/">
-            <input type= "image" name = "linkedin" src = "images/LIbutton.png">
-            </a>
-        </div>
-    </div>  
 
-      <p>Click here to get a random quotes:</p>
+  
+ <!-- NAVIGATION BAR--->
+      <div class= "navbar">
+          <a class = "active" href="#home">Home</a>
+          <a href="#links">Links</a>
+          <a href="#experiences">Experiences</a>
+          <a href="#projects">Projects</a>
+          <a href="#extracurriculars">Extracurriculars</a>
+      </div>     
+       
+   <!---<div id="content">--->
+      <h1 id = "home">Mir Farid Portfolio</h1>
+     
+
+     
+
+<h1>About Me</h1>
+<div class="container">
+      <div class="image">
+        <img id = "pfp" src ="/images/memoji2.png"/>
+      </div>
+      <div class="text">
+        <p>Hello, my name is Mir and I am currently a second-year student studying computer science. Here you will find my experiences, projects, and some of my extracurriculars</p>
+      </div>
+    </div>
+
+
+   <h1 id = "links">Links</h1>
+<table id="linkTable">
+
+  <tr>
+    <td>
+        <a href="https://www.linkedin.com/in/mirfarid/">          
+        <img id = "link" src = "https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png">
+    </td>
+    <td>
+        <a href="https://github.com/mir7160">      
+        <img id = "link" src = "https://image.flaticon.com/icons/png/512/25/25231.png"
+    </td>
+    
+    <td>
+        <a href = "mailto: mirfarid7160@gmail.com">
+        <img id = "link" src = "https://freepngimg.com/download/gmail/66415-suite-icons-computer-email-gmail-free-transparent-image-hq.png"
+    </td>
+   
+  </tr>
+  
+</table>
+
+      
+<h1 id = "experiences">Experiences</h1>
+      <div class="container">
+      <div class="image">
+        <img id = "flo" src ="https://static.flocabulary.com/media/branding-internal/logo/square_400.png"/>
+      </div>
+      <div class="text">
+          <p1>Software Engineering and Product Management Intern @ Flocabulary</p1>
+        <p>I built a front-end interface that would allow students with physical disabilites to speak into their computer and have their speech converted into text.</p>
+      </div>
+    </div>
+<br>
+    <div class="container3">
+      <div class="imagep">
+        <img id = "prove" src ="https://media-exp1.licdn.com/dms/image/C4E0BAQEEa42tSM2rZQ/company-logo_200_200/0/1613598319543?e=1623283200&v=beta&t=G5-pHxQ-dS4G9q_Dh0UPKLZ9Cjm0PQhXkNZelkf3v0s"/>
+      </div>
+      <div class="text">
+          <p1>Front-end Engineering and API Testing Intern @ Prove (formerly Payfone)</p1>
+        <p>I used Python to test APIs and read/ write CSV and text files containing data of 2,000+ customers. I also redeisgned the documention site for the company. </p>
+      </div>
+    </div>
+    <!---  <p>Click <a href="/hello">here</a> to see content created by server code.</p>  -->
+
+    <h1 id= "projects">Projects</h1>
+<p1>XCode Projects</p1>    
+<table style="">
+  <tr>
+    <th>Tip Calculator</th>
+    <th>Flix- Movie Browser</th> 
+    <th>Twitter Clone</th>
+    <th>Parstagram</th>
+  
+  </tr>
+  <tr>
+    <td>
+        <img id = "flix" src = "https://camo.githubusercontent.com/460379344c87ff91c019aebf32e2b143ea39996cbcc589e897fdc42d06b67b52/687474703a2f2f672e7265636f726469742e636f2f7035526c30506469754a2e676966">
+    </td>
+    <td>
+        <img id = "flix" src = "https://raw.githubusercontent.com/mir7160/Flixster-iOS-/main/Flixster/flixster_ios2.gif"
+    </td>
+    <td>
+        <img id = "flix" src = "https://camo.githubusercontent.com/77be5f7a9bf8c3e88975aad8e620c5e802631a12c7bfcb1a6ed615b2fc5cfcd6/687474703a2f2f672e7265636f726469742e636f2f7253564879556e4937442e676966">        
+    </td>
+    <td>
+        <img id= "flix" src = "https://camo.githubusercontent.com/fc599b490b1a5649e84362a7fa3f930e8dc3f2d13d4881b1fe27ad0bf95e2af8/687474703a2f2f672e7265636f726469742e636f2f6b344373746559584a752e676966">
+    </td>
+<tr>
+    <td>An iOS application that allows the user to input their bill amount and choose how much they want to tip. The app then displays the tip amount and the total amount due. (Built with XCode and Swift)</td>
+    <td>Flix is an app that allows the user to view movies that are currently playing. The user can tap on a movie poster to get more information about that movie. The user can also view movies from the "superhero" genre by tap the icon at the bottom right. (Built with XCode, Swift, and the Movie Database API)</td>
+    <td> This a basic Twitter app to view, compose, favorite, and retweet tweets. (Built with XCode, Swift, and Twitter API)</td>
+    <td>This app is a clone of Instagram with a custom Parse backend that allows a user to post photos and view a global photos feed.(Built with XCode, Swift, and Back 4 App Parse Server)</td>    
+  </tr>    
+   
+  </tr>
+  
+</table>
+<br>
+
+<p1>Android Studio Projects</p1>
+<table style="">
+  <tr>
+    <th>To-Do App</th>
+    <th>Flix- Movie Browser</th> 
+    <th>Twitter Clone</th>
+
+  
+  </tr>
+  <tr>
+    <td>
+        <img id = "flix" src = "https://raw.githubusercontent.com/mir7160/SimpleTodo/master/walkthrough.gif">
+    </td>
+    <td>
+        <img id = "flix" src = "https://raw.githubusercontent.com/mir7160/FlixsterPart2/master/flixster_walkthrough_part2.gif"
+    </td>
+    <td>
+        <img id = "flix" src = "https://camo.githubusercontent.com/8f38f6088546e62f5cea7748ef29e26e055004a8f37b48749cc62aba1605db44/687474703a2f2f672e7265636f726469742e636f2f305076474d67626e66422e676966">
+    </td>
+  </tr>
+  <tr>
+      <td>This An android application that allows the user to build a todo list and perform basic todo items management functionality including adding new items and editing/ deleting an existing item.(Built with Android Studio and Java)</td>
+    <td>Flix is an android app that allows the user to view movies that are currently playing. The user can tap on a movie poster to get more information about that movie including a synopsis, rating, and trailer. (Built with Android Studio, Java, Movie Database API, Android Async HTTP, Glide)</td>
+    <td> This a basic Twitter app to view their Twitter timeline. (Built with Android Studio, Java, Movie Database API, Android Async HTTP, Glide)</td>
+  </tr>
+  
+</table>
+
+
+<h1 id = "extracurriculars">Extracurriculars</h1>
+<div class="container">
+      <div class="image">
+        <img id = "EC1" src ="https://www.stonybrook.edu/commcms/vertically-integrated-projects/teams/_includes/post.php?image=Energize!&v=1">
+      </div>
+      <div class="text">
+        <p1>Group Leader @ Stony Brook Vertically Integrated Projects Team</p1>
+        <p>I am currently leading a group to develop a web application which will be Stony Brook University's official platform for managing clubs and student organizations</p>            
+      </div>
+    </div>
+<br>
+
+<div class="container">
+      <div class="image">
+        <img id = "EC" src ="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/wfsonfv0p92plryzwijf"/>
+      </div>
+      <div class="text">
+        <p1>Tech Fellow @ CodePath</p1>
+        <p>I am the the co-founder and co-instructor of Stony Brook University's iOS Application Development Course. I took the initiative to bring CodePath's free iOS course with a curriculum designed by Apple engineers to my university. As co-instructor, I teach a cohort of 40 undergraduate students (freshmen to senior) how to build iOS applications using XCode and Swift.</p>
+      </div>
+    </div>
+<br>
+
+
+<div class="container">
+      <div class="image">
+        <img id = "EC" src ="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/72485143_2657048241176425_1944807139188932608_n.png?_nc_cat=104&ccb=3&_nc_sid=7aed08&_nc_ohc=vofIxTCsd50AX83c3D6&_nc_ht=scontent-lga3-2.xx&oh=2362b346679933d54979f6514e83e5eb&oe=606975A2"/>
+      </div>
+      <div class="text">
+          <p1>Peer Mentor @ Ameria on Tech</p1>
+        <p>I am a peer mentor for America on Tech's Tech Flex Leader's Program, where I help students learn the basics of computer science through HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+<br>
+
+
+<div class="container">
+      <div class="image">
+        <img id = "EC" src ="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-1/s720x720/64388996_1748739031895093_900970953427648512_o.png?_nc_cat=109&ccb=3&_nc_sid=dbb9e7&_nc_ohc=bBrZ6rFsxwEAX_luOnG&_nc_ht=scontent-lga3-2.xx&_nc_tp=30&oh=34258f994dbb8d7dcc4b3a7e8303e4fe&oe=6065F5B4"/>
+      </div>
+      <div class="text">
+        <p1>Branding Manager @ Stony Brook Computing Society</p1>
+        <p>I am the Branding Manager and an executive board member of the my university's computer science club. I am in charge of all of the digital marketing of the club. I have also led 6 out of the 15 major events that we have held recently.</p>
+      </div>
+    </div>    
+      <p>Click here to get a random quote:</p>
       <button onclick="addRandomGreeting()">Quote</button>
       <div id="greeting-container"></div>
-    </div>
+       
+   <!---</div>--->
   </body>
 </html>
