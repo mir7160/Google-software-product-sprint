@@ -4,6 +4,118 @@
   width: 650px;
 }
 
-#greeting-container {
+#quote-container {
   margin-top: 20px;
+}
+
+#logos{
+    height: 50%;
+    width: 50%;
+}
+
+#pfp{
+    height: 75%;
+    width: 75%;
+}
+
+*{
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:#16243E;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;     
+} 
+
+
+
+
+
+
+
+.navbar{
+    background-color:#72bcd4;
+    
+}
+
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+
+
+
+
+.row{
+    display: flex;
+    
+}
+
+.column{
+   flex: 100%;
+   padding: 10px;
+}
+
+#flo{
+width: 50%;
+height: 50%;
+}
+
+#prove{
+    width: 100%;
+height: 100%;
+}
+
+.imagep{
+    margin-right: 80px;
+}
+
+.container3{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    margin-left: 45px;
+}
+
+p1{
+    font-weight: bold;
+    color: #72bcd4;
+}
+
+#flix{
+    height: 350px;
+    width: auto;
+}
+
+#EC{
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
+}
+
+
+#EC1{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+
+#link{
+    height: 70px;
+    width: auto;
+}
+
+#linkTable{
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 10px;    
+  
 }
